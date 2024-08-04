@@ -16,9 +16,9 @@ public class TShirtServlet extends HttpServlet {
         String accessoryList = String.join(", ", accessories);
 
         // Database connection
-        String url = "jdbc:mysql://localhost:3306/yourdatabase";
-        String user = "yourusername";
-        String password = "yourpassword";
+        String url = "jdbc:mysql://localhost:3306/Home48";
+        String user = "root";
+        String password = "2314";
 
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             // Insert the data into the database
